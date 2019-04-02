@@ -1,0 +1,49 @@
+ observation_id                           | character varying        | not null
+ report_id                                | character varying        |
+ data_policy_licence                      | integer                  |
+ date_time                                | timestamp with time zone |
+ date_time_meaning                        | integer                  |
+ observation_duration                     | integer                  |
+ longitude                                | numeric                  |
+ latitude                                 | numeric                  |
+ crs                                      | integer                  |
+ z_coordinate                             | numeric                  |
+ z_coordinate_type                        | integer                  |
+ observation_height_above_station_surface | numeric                  |
+ observed_variable                        | integer                  |
+ secondary_variable                       | integer                  |
+ observation_value                        | numeric                  |
+ value_significance                       | integer                  |
+ secondary_value                          | integer                  |
+ units                                    | integer                  |
+ code_table                               | integer                  |
+ conversion_flag                          | integer                  |
+ location_method                          | integer                  |
+ location_precision                       | numeric                  |
+ z_coordinate_method                      | integer                  |
+ bbox_min_longitude                       | numeric                  |
+ bbox_max_longitude                       | numeric                  |
+ bbox_min_latitude                        | numeric                  |
+ bbox_max_latitude                        | numeric                  |
+ spatial_representativeness               | integer                  |
+ quality_flag                             | integer                  |
+ numerical_precision                      | numeric                  |
+ sensor_id                                | character varying        |
+ sensor_automation_status                 | integer                  |
+ exposure_of_sensor                       | integer                  |
+ original_precision                       | numeric                  |
+ original_units                           | integer                  |
+ original_code_table                      | integer                  |
+ original_value                           | numeric                  |
+ conversion_method                        | integer                  |
+ processing_code                          | integer[]                |
+ processing_level                         | integer                  |
+ adjustment_id                            | character varying        |
+ traceability                             | integer                  |
+ advanced_qc                              | integer                  |
+ advanced_uncertainty                     | integer                  |
+ advanced_homogenisation                  | integer                  |
+ source_id                                | character varying        |
+ report_type                              | integer                  |
+ station_type                             | integer                  |
+ location        

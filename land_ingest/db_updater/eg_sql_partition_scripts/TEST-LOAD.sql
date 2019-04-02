@@ -1,0 +1,1 @@
+\COPY cdm_v1.header_1971_land_2 FROM 'header_table_BETA_AG000060390_1.1971.psv' WITH CSV HEADER DELIMITER AS '|' NULL AS 'NULL'

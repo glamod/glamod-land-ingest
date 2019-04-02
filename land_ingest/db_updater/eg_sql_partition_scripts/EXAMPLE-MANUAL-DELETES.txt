@@ -1,0 +1,29 @@
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1957_land_3 where observation_id like '%ACW00011647%';"
+DELETE 366
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1958_land_3 where observation_id like '%ACW00011647%';"
+DELETE 1064
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1959_land_3 where observation_id like '%ACW00011647%';"
+DELETE 1095
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1960_land_3 where observation_id like '%ACW00011647%';"
+DELETE 1098
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1961_land_3 where observation_id like '%ACW00011647%';"
+DELETE 1066
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1962_land_3 where observation_id like '%ACW00011647%';"
+DELETE 1089
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1963_land_3 where observation_id like '%ACW00011647%';"
+DELETE 1093
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1964_land_3 where observation_id like '%ACW00011647%';"
+DELETE 1040
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1965_land_3 where observation_id like '%ACW00011647%';"
+DELETE 1095
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1966_land_3 where observation_id like '%ACW00011647%';"
+DELETE 943
+$
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1967_land_3 where observation_id like '%ACW00011647%';"
+DELETE 789
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1968_land_3 where observation_id like '%ACW00011647%';"
+DELETE 917
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1969_land_3 where observation_id like '%ACW00011647%';"
+DELETE 0
+$ psql -U ${DBUSER} -h ${DBHOST} ${DBNAME} -c "DELETE FROM cdm_v1.observations_1970_land_3 where observation_id like '%ACW00011647%';"
+
